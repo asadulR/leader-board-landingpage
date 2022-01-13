@@ -1,0 +1,311 @@
+@media only screen and (max-width: 1116px){
+
+    .top-players .players{
+        justify-content: space-between;
+        display: grid;
+        grid-template-columns: auto auto;
+    
+    }
+
+    .blog .blog-info h4{
+        font-size: 14px;
+    }
+
+    .blog .blog-info p{
+        font-size: 12px;
+        color: gray;
+    }
+
+
+    .lates-course .course{
+        justify-content:center;
+        width: 45%;
+        margin-bottom: 50px;
+    }
+
+
+
+}
+
+
+
+@media only screen and (max-width: 800px){
+
+
+    .nav-icon img{
+        height: 40px;
+     }
+     .nav-icon h2{
+        margin: 0;
+        font-size: 20px;
+        color: white;
+     }
+
+
+     .nav-menu a{
+         font-weight: 600;
+        margin-right: 20px;
+        font-size: 14px;
+        
+    }
+
+
+
+
+
+    .top-players .players{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: auto;
+    
+    }
+
+    .top-players h2{
+        text-align: center;
+        color: #562EFF;
+    }
+    .top-players .players .player{
+        margin: 20px 0;
+        text-align: center;
+        /* justify-content: space-between; */
+        /* width: 30%; */
+        display: block;
+
+    }
+    .players .player h3{
+        margin-top: 5px;
+        font-size: 1.9rem;
+    }
+    .top-players .player img{
+        overflow: hidden;
+        margin-right: 0;
+        width: 40%;
+    }
+
+
+    .top-players .player img{
+        overflow: hidden;
+        transition: transform 2s;
+        margin-right: 10px;
+        width: 30%;
+    }
+    .top-players .player img:hover{
+        transform:scale(1.2);
+    }
+
+
+
+/*  blog--------------------------------------- */
+
+
+    .blog-container h2{
+        text-align: center; 
+    }
+
+    .blog-container .blogs{
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: auto;
+        
+    }
+    
+
+    .blog-container .blog{
+        justify-content: center;
+        margin: 30px auto;
+        width: 100%;
+    }
+
+    .blog-container .blog-img{
+        width: 50%;
+        margin-right: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .course-container h2{
+        text-align: center;
+    }
+
+    .lates-course{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .lates-course .course{
+        padding: 30px;
+        width: 80%;
+        margin: 40px auto;
+    }
+
+
+
+    .course-time{
+        font-size: 12px;
+        padding: 3px 5px;
+    }
+    .rating{
+        font-size: 12px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 500px){
+
+
+    .nav-icon img{
+        height: 25px;
+     }
+     .nav-icon h2{
+        font-size: 12px;
+     }
+
+     .nav-menu a{
+    font-weight: 600;
+    margin-right: 6px;
+    font-size: 12px;
+       
+   }
+
+   .nav-menu img{
+    width: 15px;
+
+    }
+
+
+
+
+   .blog-container .blog-img{
+    width: 40%;
+    margin-right: 8px;
+}
+   .players .player h3{
+    font-size: 1rem;
+    }
+    .blog .blog-info h4{
+        font-size: 12px;
+    }
+    .blog .blog-info p{
+        font-size: 11px;
+    }
+
+
+    .lates-course .course{
+        padding: 20px;
+    }
+
+    .lates-course .course h3{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .lates-course .course .course-mentor{
+        font-size: 11px;
+    }
+    .lates-course .course{
+        padding: 30px;
+        width: 95%;
+        margin: 20px auto;
+    }
+
+    .course-time{
+        font-size: 10px;
+        padding: 3px 5px;
+    }
+    .rating{
+        font-size: 8px;
+    }
+
+
+
+
+
+    .copyright .f-left img{
+    
+        width: 25px;
+     }
+
+     .copyright .f-left p{
+        font-size: 12px;
+    }
+
+
+
+
+    .copyright .f-right a{
+        color: white;
+        margin-left: 5px;
+        font-size: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 320px){
+    
+
+    .blog .blog-info h4{
+        font-size: 10px;
+    }
+    .blog .blog-info p{
+        color: gray;
+    }
+
+    .top-players .player img{
+        margin-right: 0;
+    }
+    .lates-course .course{
+        padding: 10px;
+    }
+    
+    
+    
+    
+    
+    .copyright .f-left img{
+        width: 25px;
+     }
+
+     .copyright .f-left p{
+        font-size: 10px;
+    }
+
+    .copyright .f-right a{
+        color: white;
+        margin-left: 5px;
+        font-size: 15px;
+    }
+
+}
+
+
+
+
